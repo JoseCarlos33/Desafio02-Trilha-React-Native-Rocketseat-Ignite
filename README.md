@@ -3,7 +3,8 @@
 </h1>
 
 <p align="center">
-  <img src="./src/assets/demoDesafio02.gif" alt="demo-mobile" height="425">
+  <img src="./src/assets/demoDesafio02.gif" 
+  height="425" widght="200">
 </p>
 
 ## Sobre o projeto: 
