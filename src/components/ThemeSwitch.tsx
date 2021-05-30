@@ -5,12 +5,10 @@ import {useColorTheme} from '../Contexts/ColorTheme';
 import Icon from 'react-native-vector-icons/Feather'
 
 export function ThemeSwitch(){
-  const [isEnabled, setIsEnabled] = useState(false);
   const {nightMode, setNightMode} = useColorTheme();
   
   
   const toggleSwitch = () => {
-    setIsEnabled(previousState => !previousState); 
     setNightMode(!nightMode)
   }
 
@@ -42,8 +40,7 @@ const styles = StyleSheet.create({
     width: 30,
     height: 30,
     alignItems:'center',
-    justifyContent: 'center',
-    // elevation: 5
+    justifyContent: 'center'
   },
 
 });
